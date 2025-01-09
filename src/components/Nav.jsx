@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div id="header">
       <div id="logo">
-        <img  alt="logo" />
+        <img src={logo} alt="logo" />
         <h2 id="title">DreamikAI</h2>
       </div>
 
