@@ -2,7 +2,7 @@
   {
     "name": "RoseBK-FlowerTheme-Type1-ImageRight",
     "id": "1",
-    "source": "/public/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["white", "rose", "type1", "image", "right", "128dc1"],
@@ -13,7 +13,7 @@
   {
     "name": "RoseBK-Type2-ImageLeft",
     "id": "2",
-    "source": "public/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["flower", "type2", "image", "left", "rose", "34bace"],
@@ -24,7 +24,7 @@
   {
     "name": "WhiteBK-BatmintonTheme-Type1-ImageLeft",
     "id": "3",
-    "source": "public/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-CricketTheme-Type1-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-CricketTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": [
@@ -43,7 +43,7 @@
   {
     "name": "WhiteBK-CricketTheme-Type1-ImageLeft",
     "id": "4",
-    "source": "public/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["cricket", "white", "type1", "image", "left", "969976"],
@@ -54,7 +54,7 @@
   {
     "name": "WhiteBK-FlowerTheme-Type2-ImageLeft",
     "id": "5",
-    "source": "/public/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-CricketTheme-Type1-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-CricketTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["flower", "white", "type2", "image", "left", "0cb178"],
