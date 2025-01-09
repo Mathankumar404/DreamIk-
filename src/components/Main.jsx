@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./index.css";
 import Prod from "./Prod";
 import { Link } from "react-router-dom";
-import {im1} from "/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png"
+import im1 from "/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png";
 const Main = () => {
   const [data, setData] = useState([]);
 
@@ -39,6 +39,7 @@ const Main = () => {
 
 const ProductCard = ({ product }) => {
   return (
+    <img src={im1} alt=""/>
     <Link
       className="product-card"
       id={product.name}
