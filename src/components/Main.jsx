@@ -11,7 +11,7 @@ const Main = () => {
       name: "RoseBK-FlowerTheme-Type1-ImageRight",
       id: "1",
       source:
-        "/public/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
+        "/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
       price: 100,
       status: 1,
       props: ["white", "rose", "type1", "image", "right", "128dc1"],
