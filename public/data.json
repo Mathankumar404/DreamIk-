@@ -54,7 +54,7 @@
   {
     "name": "WhiteBK-FlowerTheme-Type2-ImageLeft",
     "id": "5",
-    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-CricketTheme-Type1-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["flower", "white", "type2", "image", "left", "0cb178"],
@@ -65,7 +65,7 @@
   {
     "name": "WhiteBK-FootballTheme-Type1-ImageLeft",
     "id": "6",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-FootballTheme-Type1-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["football", "white", "type1", "image", "left", "614a7d"],
@@ -76,7 +76,7 @@
   {
     "name": "WhiteBK-IndiaTheme-Type1-ImageLeft",
     "id": "7",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-IndiaTheme-Type1-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["india", "white", "type1", "image", "left", "52abb1"],
@@ -87,7 +87,7 @@
   {
     "name": "WhiteBK-RainbowTheme-Type2-ImageLeft",
     "id": "8",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-RainbowTheme-Type2-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["rainbow", "white", "type2", "image", "left", "76b690"],
@@ -98,7 +98,7 @@
   {
     "name": "WhiteBK-RocketTheme-Type2-ImageLeft",
     "id": "9",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-RocketTheme-Type2-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["rocket", "white", "type2", "image", "left", "4c123b"],
@@ -109,7 +109,7 @@
   {
     "name": "WhiteBK-SchoolTheme-Type2-ImageLeft-Transparent",
     "id": "10",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-SchoolTheme-Type2-ImageLeft-Transparent.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": [
@@ -128,7 +128,7 @@
   {
     "name": "WhiteBK-SchoolTheme-Type2-ImageLeft",
     "id": "11",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-SchoolTheme-Type2-ImageLeft.png",
+    "source": "/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
     "price": 100,
     "status": 1,
     "props": ["school", "white", "type2", "image", "left", "239a6a"],
@@ -136,26 +136,5 @@
     "template": "template6",
     "productcode": "239a6a"
   },
-  {
-    "name": "WhiteBK-SkatingTheme-Type1-ImageLeft",
-    "id": "12",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-SkatingTheme-Type1-ImageLeft.png",
-    "price": 100,
-    "status": 1,
-    "props": ["skating", "white", "type1", "image", "left", "e86302"],
-    "glossy": 60,
-    "template": "template3",
-    "productcode": "e86302"
-  },
-  {
-    "name": "WhiteBK-Type2-ImageLeft",
-    "id": "13",
-    "source": "/image/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-Type2-ImageLeft.png",
-    "price": 100,
-    "status": 1,
-    "props": ["white", "type2", "image", "left", "07ad6e"],
-    "glossy": 60,
-    "template": "template2",
-    "productcode": "07ad6e"
-  }
+
 ]
