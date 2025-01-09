@@ -6,21 +6,66 @@ import { Link } from "react-router-dom";
 
 const Main = () => {
   const [data, setData] = useState([]);
-
+  const [product, setproduct] = useState([
+    {
+      name: "RoseBK-FlowerTheme-Type1-ImageRight",
+      id: "1",
+      source:
+        "public/images/DreamikAILabel-Rectangle-1080x1920px-HD-RoseBK-Type2-ImageLeft.png",
+      price: 100,
+      status: 1,
+      props: ["white", "rose", "type1", "image", "right", "128dc1"],
+      glossy: 60,
+      template: "template1",
+      productcode: "128dc1",
+    },
+    {
+      name: "RoseBK-Type2-ImageLeft",
+      id: "2",
+      source:
+        "public/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-BatmintonTheme-Type1-ImageLeft.png",
+      price: 100,
+      status: 1,
+      props: ["flower", "type2", "image", "left", "rose", "34bace"],
+      glossy: 60,
+      template: "template2",
+      productcode: "34bace",
+    },
+    {
+      name: "WhiteBK-BatmintonTheme-Type1-ImageLeft",
+      id: "3",
+      source:
+        "public/images/DreamikAILabel-Rectangle-1080x1920px-HD-WhiteBK-CricketTheme-Type1-ImageLeft.png",
+      price: 100,
+      status: 1,
+      props: [
+        "batminton",
+        "white",
+        "type1",
+        "image",
+        "left",
+        "5801f3",
+        "english",
+      ],
+      glossy: 60,
+      template: "template3",
+      productcode: "5801f3",
+    },
+  ]);
   useEffect(() => {
-    fetch('src/data.json'') // Path relative to the `public` directory
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then((jsonData) => {
-        setData(jsonData);
-      })
-      .catch((error) => {
-        console.error("Error fetching JSON data:", error);
-      });
+    // fetch("/src/data.json") // Path relative to the `public` directory
+    //   .then((response) => {
+    //     if (!response.ok) {
+    //       throw new Error(`HTTP error! Status: ${response.status}`);
+    //     }
+    //     return response.json();
+    //   })
+    //   .then((jsonData) => {
+    //     setData(jsonData);
+    //   })
+    //   .catch((error) => {
+    //     console.error("Error fetching JSON data:", error);
+    //   });
   }, []);
 
   console.log(data);
@@ -29,7 +74,7 @@ const Main = () => {
     <div>
       <h1>Name slip</h1>
       <div className="product-grid" id="container">
-        {data.map((product) => (
+        {product.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
@@ -39,7 +84,6 @@ const Main = () => {
 
 const ProductCard = ({ product }) => {
   return (
-   
     <Link
       className="product-card"
       id={product.name}
