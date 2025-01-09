@@ -1,0 +1,264 @@
+#logo {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 100px;
+}
+#title {
+  margin-top: 38px;
+  padding-left: 20px;
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+#header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 800px;
+  align-items: center;
+}
+#searchbar {
+  width: 200px;
+  height: 40px;
+}
+.product-card {
+  border: 2px solid;
+  display: flex;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  height: 300px;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 2px 2px inset rgb(170, 170, 170);
+}
+#container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.product-image {
+  width: 80%;
+  height: auto;
+}
+.product-page {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+.stickerImage {
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.imagedetails {
+  padding-left: 100px;
+}
+.personalize-Btn {
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 2rem;
+  width: 200px;
+  height: 40px;
+}
+.back-btn {
+  margin-left: 45%;
+  margin-top: 10%;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 2rem;
+  width: 200px;
+  height: 40px;
+}
+.pers-img-cont {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.personalise-Image {
+  width: 90%;
+  height: 50%;
+  object-fit: cover;
+}
+.personImage {
+  position: absolute;
+  right: 73%;
+  top: 36%;
+
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 200px;
+  object-fit: contain;
+}
+#select-image {
+  display: none;
+}
+.personalizecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 10%;
+}
+
+#sel-img-btn {
+  color: aliceblue;
+  border: 2px solid black;
+  background-color: blue;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  font-size: large;
+}
+
+.controllize-container {
+  width: 30%;
+  padding-right: 20%;
+  border: 2px solid black;
+}
+.personDetails {
+  display: flex;
+  flex-direction: column;
+}
+.student-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.studentname-lab {
+  position: absolute;
+  right: 40%;
+  top: 15%;
+}
+.classname-lab {
+  position: absolute;
+  right: 50%;
+  top: 28%;
+}
+.subjectname-lab {
+  position: absolute;
+  right: 35%;
+  top: 55%;
+}
+.rollnu-lab {
+  position: absolute;
+  right: 35%;
+  top: 42%;
+}
+.schoolname-lab {
+  position: absolute;
+  top: 70%;
+  right: 35%;
+}
+.sectionname-lab {
+  position: absolute;
+  right: 20%;
+  top: 27%;
+}
+#customizediv {
+  display: none;
+  display: flex;
+  border: 2px solid;
+  width: 80%;
+  height: auto;
+  margin-left: 45%;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#customizediv button {
+  width: 100px;
+}
+#editImage {
+  margin-left: 90%;
+  margin-top: 5%;
+}
+#OD {
+  display: none;
+}
+#namecustomizediv {
+  display: none;
+}
+#schoolnamecustomizediv {
+  display: none;
+}
+.studentDetails {
+  border: 2px solid;
+  height: 20px;
+  margin-left: 40%;
+}
+.custamlogo {
+  width: 25px;
+  margin-left: 42%;
+  margin-bottom: 2%;
+  border: 2px solid green;
+}
+#fontcenter {
+  width: 500px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+#otherdetails {
+  color: aliceblue;
+  border: 2px solid black;
+  background-color: blue;
+  width: 300px;
+  height: 30px;
+  margin-left: 50%;
+  font-size: large;
+  margin-bottom: 10%;
+}
+
+.fontsizebtn {
+  height: 40px;
+  border: 2px solid;
+  background-color: orange;
+  margin-right: 30px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#add {
+  border: 2px solid;
+  width: 120px;
+  border-radius: 8px;
+  height: 50px;
+  background-color: cadetblue;
+}
+#ad {
+  border: 2px solid;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: chartreuse;
+  border-radius: 8px;
+}
+#down {
+  width: 50%;
+  margin-bottom: 5%;
+  height: 35px;
+  background-color: rgb(132, 132, 253);
+  border-radius: 8px;
+}
